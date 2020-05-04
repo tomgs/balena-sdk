@@ -251,6 +251,7 @@ const sdk = getSdk.fromSharedOptions();
             * [.isSupportedOsUpdate(deviceType, currentVersion, targetVersion)](#balena.models.os.isSupportedOsUpdate) ⇒ <code>Promise</code>
             * [.getSupportedOsUpdateVersions(deviceType, currentVersion)](#balena.models.os.getSupportedOsUpdateVersions) ⇒ <code>Promise</code>
             * [.isArchitectureCompatibleWith(osArchitecture, applicationArchitecture)](#balena.models.os.isArchitectureCompatibleWith) ⇒ <code>Boolean</code>
+        * [._os](#balena.models._os) : <code>object</code>
         * [.config](#balena.models.config) : <code>object</code>
             * [.getAll()](#balena.models.config.getAll) ⇒ <code>Promise</code>
             * [.getDeviceTypes()](#balena.models.config.getDeviceTypes) ⇒ <code>Promise</code>
@@ -561,6 +562,7 @@ balena.models.device.get(123).catch(function (error) {
         * [.isSupportedOsUpdate(deviceType, currentVersion, targetVersion)](#balena.models.os.isSupportedOsUpdate) ⇒ <code>Promise</code>
         * [.getSupportedOsUpdateVersions(deviceType, currentVersion)](#balena.models.os.getSupportedOsUpdateVersions) ⇒ <code>Promise</code>
         * [.isArchitectureCompatibleWith(osArchitecture, applicationArchitecture)](#balena.models.os.isArchitectureCompatibleWith) ⇒ <code>Boolean</code>
+    * [._os](#balena.models._os) : <code>object</code>
     * [.config](#balena.models.config) : <code>object</code>
         * [.getAll()](#balena.models.config.getAll) ⇒ <code>Promise</code>
         * [.getDeviceTypes()](#balena.models.config.getDeviceTypes) ⇒ <code>Promise</code>
@@ -4838,6 +4840,10 @@ console.log(result1);
 const result2 = balena.models.os.isArchitectureCompatibleWith('armv7hf', 'amd64');
 console.log(result2);
 ```
+<a name="balena.models._os"></a>
+
+#### models.\_os : <code>object</code>
+**Kind**: static namespace of [<code>models</code>](#balena.models)  
 <a name="balena.models.config"></a>
 
 #### models.config : <code>object</code>
