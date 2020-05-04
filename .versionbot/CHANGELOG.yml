@@ -1,4 +1,16 @@
 - commits:
+    - subject: Use hostapps to fetch OS versions
+      hash: 4392c283fd6626e13b3582962a6602011e31aaf8
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Stevche Radevski <stevche@balena.io>
+        signed-off-by: Stevche Radevski <stevche@balena.io>
+      author: Stevche Radevski
+  version: 13.5.0
+  date: 2020-05-04T10:57:28.753Z
+- commits:
     - subject: Avoid moment v2.25.0 that's missing published files
       hash: bc7be61f31d3280999e3760eba6341bb01cee6bd
       body: ''
