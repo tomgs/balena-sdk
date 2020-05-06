@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fully type the pine.get results
+      hash: 57ef455120804affa48a9a8beead23e9c5107718
+      body: ''
+      footer:
+        Resolves: '#887'
+        resolves: '#887'
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+  version: 14.0.0
+  date: 2020-05-06T12:37:53.824Z
+- commits:
     - subject: Avoid unnecessary `cloneDeep` usage
       hash: c00a429771a0ea9c8c25e97f8f9819186db1fff0
       body: ''
