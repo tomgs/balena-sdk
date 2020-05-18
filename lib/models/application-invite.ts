@@ -21,7 +21,7 @@ import {
 	ApplicationInvite,
 	ApplicationMembershipRole,
 	ApplicationMembershipRoles,
-	PineOptionsFor,
+	PineOptions,
 	ApplicationInviteOptions,
 	BalenaSDK,
 	PineSubmitBody,
@@ -65,7 +65,7 @@ const getApplicationInviteModel = function (
 		 * });
 		 */
 		getAll(
-			options: PineOptionsFor<ApplicationInvite> = {},
+			options: PineOptions<ApplicationInvite> = {},
 		): Promise<ApplicationInvite[]> {
 			return pine.get({
 				resource: RESOURCE,
@@ -105,7 +105,7 @@ const getApplicationInviteModel = function (
 		 */
 		getAllByApplication(
 			nameOrSlugOrId: number | string,
-			options: PineOptionsFor<ApplicationInvite> = {},
+			options: PineOptions<ApplicationInvite> = {},
 		): Promise<ApplicationInvite[]> {
 			return getApplication(nameOrSlugOrId, {
 				$select: 'id',
