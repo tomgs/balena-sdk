@@ -223,11 +223,12 @@ declare namespace BalenaSdk {
 
 		/** includes__organization_membership */
 		organization_membership: ReverseNavigationResource<OrganizationMembership>;
+		/** user_application_membership */
+		user__is_member_of__application: ReverseNavigationResource<
+			ApplicationMembership
+		>;
 		creates__release: ReverseNavigationResource<Release>;
 		owns__device: ReverseNavigationResource<Device>;
-		user__is_member_of__application: ReverseNavigationResource<
-			ApplicationMember
-		>;
 		// this is what the api route returns
 		social_service_account: ReverseNavigationResource<SocialServiceAccount>;
 	}
@@ -286,17 +287,12 @@ declare namespace BalenaSdk {
 		owns__device: ReverseNavigationResource<Device>;
 		owns__release: ReverseNavigationResource<Release>;
 		is_depended_on_by__application: ReverseNavigationResource<Application>;
+		/** includes__user */
 		user__is_member_of__application: ReverseNavigationResource<
-			ApplicationMember
+			ApplicationMembership
 		>;
 	}
 
-	interface ApplicationMember {
-		id: number;
-		application_membership_role: NavigationResource<ApplicationMembershipRole>;
-		is_member_of__application: NavigationResource<Application>;
-		user: NavigationResource<User>;
-	}
 
 	interface Invitee {
 		id: number;
@@ -320,10 +316,6 @@ declare namespace BalenaSdk {
 		message?: string;
 	}
 
-	interface ApplicationMembershipRole {
-		id: number;
-		name: string;
-	}
 
 	interface ApplicationType {
 		id: number;
@@ -338,6 +330,22 @@ declare namespace BalenaSdk {
 		needs__os_version_range: string | null;
 		maximum_device_count: number | null;
 		is_host_os: boolean;
+	}
+
+	type ApplicationMembershipRoles = 'developer' | 'operator' | 'observer';
+
+	interface ApplicationMembershipRole {
+		id: number;
+		name: ApplicationMembershipRoles;
+	}
+
+	/** user__is_member_of__application */
+	interface ApplicationMembership {
+		id: number;
+		user: NavigationResource<User>;
+		/** application */
+		is_member_of__application: NavigationResource<Application>;
+		application_membership_role: NavigationResource<ApplicationMembershipRole>;
 	}
 
 	type ReleaseStatus =

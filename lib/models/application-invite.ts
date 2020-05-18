@@ -20,6 +20,7 @@ import {
 	Application,
 	ApplicationInvite,
 	ApplicationMembershipRole,
+	ApplicationMembershipRoles,
 	PineOptionsFor,
 	ApplicationInviteOptions,
 	BalenaSDK,
@@ -164,7 +165,7 @@ const getApplicationInviteModel = function (
 								$top: 1,
 								$select: ['id'],
 								$filter: {
-									name: roleName,
+									name: roleName as ApplicationMembershipRoles,
 								},
 							},
 					  })
