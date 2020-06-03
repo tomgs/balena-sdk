@@ -1,4 +1,327 @@
 - commits:
+    - subject: Bump minimum supported Typescript to v3.9.3
+      hash: 6b7a29f321e96c59dad9aae3b0af56749b1ccf38
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Add tests for arbitary pine requests
+      hash: ad03e69b617bb6e3d1581de3aed729deed5be55f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Add methods for the organization model
+      hash: 0ee8d9b00ccc5ac0ece6586fa40566e2569a4d24
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'utils: Add overloaded typing for the mergePineOptions helper'
+      hash: 0097cfc5ce6699d726a14c8ba312e2742cdd4a27
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings: Add a PineOptionsWithSelect variant'
+      hash: 7bc7cd9c0993c8d2b5a9982b7c0e79850363f31b
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'tests: Add some $selects to make the tests faster'
+      hash: b711b7bbaa010ebec45998fff4799c48dd4ac4b7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings: Add a PineOptionsWithFilter variant'
+      hash: f99f2059667be989200181f6839ed8ee3168e9ae
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'tests: Update to work with the required $filter change'
+      hash: 1c23492d5b1025cbb33e2ca9315f7b7f99fe628e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Make $filter or id required in pine DELETE & PATCH'
+      hash: 45839c64f9a6fc174f47d4569e61b4a7ddaf72cc
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        See: 'https://github.com/balena-io/resin-api/pull/2226'
+        see: 'https://github.com/balena-io/resin-api/pull/2226'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Drop the apiKey constructor option'
+      hash: 48ff56cecd4cc7424b16b4c72ff9e08111fb85a5
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        See: 'https://github.com/balena-io/balena-sdk/pull/460'
+        see: 'https://github.com/balena-io/balena-sdk/pull/460'
+        HQ: 'https://github.com/balena-io/balena/pull/370'
+        hq: 'https://github.com/balena-io/balena/pull/370'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** typings: Drop the "For" suffix on all exported Pine typings'
+      hash: 28df46360ef4517fd2cbf9ae247fee1c70388269
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings/pinejs-client-core: Drop the nongeneric PineOptions & PineParams'
+      hash: b66963ae0720ee6b268d7ddb76fb18226b7a28d8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** typings: Change PineParams & PineOptions to be generic'
+      hash: e3192d18d7a351132318a0eb89e3fc0f0bc34b79
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings/pinejs-client-core: Support AnyObject in PineOptionsFor<T>'
+      hash: a006c58316b6d8c6207b6c923ad14bea431a6bd1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings: Use a separate OptionalNavigationResource type in the models'
+      hash: 023ca290c748ceac6da3452ab29aeccf1e2097eb
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings: Improve the NavigationResource type'
+      hash: 7e8e8704421e7b1f858f1a5ace39ba19600f0576
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** typings: Drop duplicate service prop from ServiceInstall'
+      hash: 4407c25748264181793e28f4d010a4cdda71f379
+      body: |
+        The installs__service is closer to the SBVR terms and
+        is the one that get's automatically populated by pine.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Change the device_type of all models to resource references'
+      hash: a0651d324e93a4d7ff49aa9f4f82f11afe7d85a3
+      body: |
+        The affected models are the Application, the Device
+        and the SupervisorRelease.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Add typings for the DeviceType resource
+      hash: 250b71770998515b4b98faee2c4097ef87ea0e09
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Create a DeviceTypeJson namespace with all related typings'
+      hash: 90a5fa55f3e9a92c7eb4d0126f01dba059b21c64
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING**  Change application and device commit to release references'
+      hash: c2fe3316a7dc10b2a088f8b0eb2a2fb8115a8fff
+      body: ''
+      footer:
+        Resolves: '#742'
+        resolves: '#742'
+        Change-type: major
+        change-type: major
+        See: 'https://github.com/balena-io/resin-api/pull/2100'
+        see: 'https://github.com/balena-io/resin-api/pull/2100'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Clarify that application.getAppByOwner also accepts organization handles
+      hash: c40d6eade838efeba829f1412252df37ac45fd98
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Support creating applications for a specific organization
+      hash: 7dab978d07bc6e15698818c562424cfec7af2ab4
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Depends-on: 'https://github.com/balena-io/balena-api/pull/2281'
+        depends-on: 'https://github.com/balena-io/balena-api/pull/2281'
+        See: 'https://github.com/balena-io/balena-api/pull/2018'
+        see: 'https://github.com/balena-io/balena-api/pull/2018'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Add team & team_membership resources
+      hash: 272603416ff21c1634883bbfe4d45c2cfcdd5646
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** typings: Rename ApplicationMember to ApplicationMembership'
+      hash: 89ed5117eedf9e7c5d7a8071e1bba744ea6ce1c1
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Drop user.application navigation property'
+      hash: ff1b8ab56fa81ebd942bb18101ecfb4ffb0b0262
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING**: Change application.user to application.organization'
+      hash: 46c4b71c53ffeed07d2f0cddf22a3068956d0976
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Add user.organization_membership
+      hash: 22fa35b4815289da3b4f90e0660b9c402e5c1ef4
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Add organization & organization_membership resources
+      hash: d5d3088faa1d8c2fd767185f1f34b001175f661a
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: Use pine.upsert() for setting tags & envars
+      hash: c615160fc9b0b1f79de4f71d4a8e561f455acc92
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Depends-on: 'https://github.com/balena-io/resin-api/pull/2018'
+        depends-on: 'https://github.com/balena-io/resin-api/pull/2018'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'Add support for pine.upsert(), requires Pinejs ^10.19.1'
+      hash: d4fad122993c1c3d59143b68ca23c5559396977f
+      body: |
+        This requires the v6 API endpoint.
+      footer:
+        Change-type: major
+        change-type: major
+        Depends-on: 'https://github.com/balena-io/resin-api/pull/2018'
+        depends-on: 'https://github.com/balena-io/resin-api/pull/2018'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Expect a 409 status on unique constraint errors'
+      hash: 8ee313e174305f81b3b8a62d2e6c9e6b5108448d
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: '**BREAKING** Use the /v6 API endpoint'
+      hash: 97618eebef27ad7f39667a7377a5d8a4c9351340
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+  version: 14.0.0
+  date: 2020-06-03T08:25:08.016Z
+- commits:
     - subject: Add SDK method to invite application members
       hash: b4ce161fc10f9e5c8b2c30c7cbd364d45f2e4611
       body: ''
