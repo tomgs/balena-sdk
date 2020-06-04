@@ -1,4 +1,37 @@
 - commits:
+    - subject: 'models/device: Add a getMACAddresses() method'
+      hash: 23ff58bb26d9bfe7207347ac955d7c2bddebd5df
+      body: ''
+      footer:
+        Resolves: '#912'
+        resolves: '#912'
+        Change-type: minor
+        change-type: minor
+        HQ: 'https://github.com/balena-io/balena/issues/2195'
+        hq: 'https://github.com/balena-io/balena/issues/2195'
+        Depends-on: 'https://github.com/balena-io/balena-api/pull/2627'
+        depends-on: 'https://github.com/balena-io/balena-api/pull/2627'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+    - subject: 'typings: Add the mac_address field to the device'
+      hash: 2a02543b5a49f04e1f8a2d2b16e9598995fa7c09
+      body: ''
+      footer:
+        Resolves: '#912'
+        resolves: '#912'
+        Change-type: minor
+        change-type: minor
+        HQ: 'https://github.com/balena-io/balena/issues/2195'
+        hq: 'https://github.com/balena-io/balena/issues/2195'
+        Depends-on: 'https://github.com/balena-io/balena-api/pull/2627'
+        depends-on: 'https://github.com/balena-io/balena-api/pull/2627'
+        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      author: Thodoris Greasidis
+  version: 13.7.0
+  date: 2020-06-04T17:36:27.000Z
+- commits:
     - subject: Switch to generating es2015 as that is already the minimum we support
       hash: ad58c9c425743e0a59fa238fd57aad0d4a2a2d88
       body: |
